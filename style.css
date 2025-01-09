@@ -1,0 +1,39 @@
+/* Define o fundo do site */
+body {
+    background-image: linear-gradient(to top, rgb(217, 0, 255), rgb(192, 254, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    text-shadow: 1px 1px 1px black;
+}
+
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top{
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: aliceblue;
+    width: 500px;
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    color: red;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
